@@ -7,7 +7,7 @@ access_token = os.getenv("access_token")
 payee_id = os.getenv("payee_id")
 payment_note = os.getenv("payment_note")
 payment_amount = ast.literal_eval(
-    re.sub("[^0-9.]", "", os.getenv("payment amount")))
+    re.sub("[^0-9.]", "", os.getenv("payment_amount")))
 funding_source_id = os.getenv("funding_source_id")
 
 venmo = Client(
